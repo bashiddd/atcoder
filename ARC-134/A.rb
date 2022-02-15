@@ -1,15 +1,17 @@
-n, l, w = gets.chomp.split(' ').map(&:to_i)
+N, L, W = gets.chomp.split(' ').map(&:to_i)
 as = gets.chomp.split(' ').map(&:to_i)
-as.push(l)
+as.push(L)
 
 count = 0
 prev = 0
 
 as.each do |a|
     if a > prev
-        count += (a - prev + w - 1) / w
+        count += (a - prev + (L - a + W) )/ W
+    else
+        count += (L - (prev + W) ) / W
     end
-    prev = a + w
+    prev = a + W
 end
 
 puts count
