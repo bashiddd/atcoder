@@ -11,3 +11,4 @@ N.times do |num|
 end
 
 p ary - As
+# 配列の差分はこれでは求めれない
