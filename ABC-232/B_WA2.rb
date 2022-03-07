@@ -14,8 +14,9 @@ dif = []
    dif.push(ary.index("#{ST[i][1]}") - ary.index("#{ST[i][0]}"))
 }
 p dif
-# if dif.uniq.size == 1
-#     puts "Yes"
-# else
-#     puts "No"
-# end
+
+if dif.uniq.size == 1
+    puts "Yes"
+else
+    puts "No"
+end
