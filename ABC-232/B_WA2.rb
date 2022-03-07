@@ -13,9 +13,9 @@ dif = []
 (ST.size).times {|i|
    dif.push(ary.index("#{ST[i][1]}") - ary.index("#{ST[i][0]}"))
 }
-
-if dif.uniq.size == 1
-    puts "Yes"
-else
-    puts "No"
-end
+p dif
+# if dif.uniq.size == 1
+#     puts "Yes"
+# else
+#     puts "No"
+# end
