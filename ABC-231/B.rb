@@ -1,3 +1,3 @@
 N = gets.to_i
 ary = Array.new(N) {gets.chomp}
-p ary
+puts ary.max_by {|x| ary.count(x)}
