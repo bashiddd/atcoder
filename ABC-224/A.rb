@@ -1,3 +1,6 @@
 s = gets.chomp
-puts "er" if s.include?("er") 
-puts "ist" if s.include?("ist")
+if s[-2]=="e"&&s[-1]=="r"
+    puts "er"
+else
+    puts "ist"
+end
