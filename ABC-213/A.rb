@@ -10,4 +10,3 @@ b.each_with_index {|num,i|
     end
     p c
 }
-# puts c.join
