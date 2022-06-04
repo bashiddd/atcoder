@@ -8,7 +8,6 @@ n.times {|i|
             ary[x+1]=answer[i-1][x]+answer[i-1][x+1]
         }
     end
-    # p ary
     answer.push(ary)
     puts ary.join(" ")
 }
