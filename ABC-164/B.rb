@@ -7,4 +7,8 @@ while a>0 && c>0
         exit
     end
     a -= d
+    if a<=0
+        puts "No"
+        exit
+    end
 end
