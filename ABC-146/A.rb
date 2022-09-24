@@ -1,4 +1,4 @@
 s = gets.chomp
-day = ["SUN","MON","TUE","WED","THU","FRI","SAT"]
+day = ["MON","TUE","WED","THU","FRI","SAT","SUN"]
 index = day.index(s)
-puts index!=6 ? day[index+1] : "SUN"
+puts index!=6 ? 6-index : 7
