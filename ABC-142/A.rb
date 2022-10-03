@@ -1,2 +1,2 @@
 n = gets.to_i
-puts (n.to_f/2).floor/n
+puts ((n/2)+1)/n.to_f
